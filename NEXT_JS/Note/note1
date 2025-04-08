@@ -1,0 +1,19 @@
+Next JS :
+
+
+No.1 React Framework 
+
+Next js you need to know react first.
+
+Library vs Framework 
+-Library : something you install and control (design and how you use the library)
+              you will call library
+-Framework: follow the framework not full control of it.
+              framework will call your code 
+
+
+
+Install NEXTJS14
+
+npm init 
+npm install react@latest next@latest react-dom@latest
