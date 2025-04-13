@@ -1,0 +1,13 @@
+Routing
+
+Learning : page , navigation, client component , layout
+
+
+
+
+Page:  Since this is from NEXT JS Framework We need this 
+        How to add new page ? 
+
+        In NEXT js  we use url based. 
+        if we making /about-us
+        then we create about-us folder and create page.jsx / page.tsx
