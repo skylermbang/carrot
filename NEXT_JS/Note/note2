@@ -10,4 +10,13 @@ Page:  Since this is from NEXT JS Framework We need this
 
         In NEXT js  we use url based. 
         if we making /about-us
-        then we create about-us folder and create page.jsx / page.tsx
+        then we create about-us folder and create page.jsx / page.tsx 
+
+        Node version change :  nvm use 20
+
+
+Navbar :  it will shared across the application; 
+
+Layout :
+
+not-found page in root; under name "not-found"

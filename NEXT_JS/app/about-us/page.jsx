@@ -1,3 +1,12 @@
+import Navigation from "../../.next/components/navigation"
+
+
 export default function AboutUs(){
-    return <h1>This is about us</h1>
+    return (
+    <div>
+        <Navigation/>
+        <h1>About Us </h1>      
+    </div>
+        )
+
 }
