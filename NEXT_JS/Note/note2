@@ -41,3 +41,12 @@ Every time the user requests a page, the server generates the full HTML and send
 [Pros]: Fast initial load, good SEO, great for content-heavy pages
 
 [Cons]: Slower page transitions, more load on the servera
+
+
+Hydration 
+
+Hydration is when the server-rendered HTML becomes interactive in the browser using React.
+
+/about-us -------> boring HTML ----->  :) ------> init(Boring HTML <hydration>)
+
+
