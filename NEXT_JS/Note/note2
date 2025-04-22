@@ -20,3 +20,24 @@ Navbar :  it will shared across the application;
 Layout :
 
 not-found page in root; under name "not-found"
+
+
+Rendering 
+It is the process of turning React components into HTML that the browser can understand.
+it happens different in CSR (brower) or SSR (server)
+
+
+CSR (Client-Side Rendering):
+The browser gets an HTML shell and a JavaScript bundle from the server.
+The UI is built using JavaScript in the browser (e.g., Chrome).
+
+[Pros]: Fast page changes after loading, great for web apps
+
+[Cons]: Slower initial load, bad SEO, requires JavaScript
+
+SSR (Server-Side Rendering):
+Every time the user requests a page, the server generates the full HTML and sends it to the browser.
+
+[Pros]: Fast initial load, good SEO, great for content-heavy pages
+
+[Cons]: Slower page transitions, more load on the servera
