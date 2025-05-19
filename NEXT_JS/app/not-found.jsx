@@ -1,5 +1,5 @@
 "use client"
-import Navigation from "../.next/components/navigation"
+//import Navigation from "../.next/components/navigation"
 
 export default function NotFound(){
     return (
