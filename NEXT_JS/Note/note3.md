@@ -31,3 +31,26 @@ Next.js caches server-fetched data by default (especially with fetch() in server
 Previously: Client fetched everything after page load.
 
 Now: Server prepares everything and sends a complete page → faster initial load, better SEO.
+
+
+Streaming
+Backend keeps sending data to the frontend bit by bit, so the page can start rendering before everything finishes.
+
+Suspense
+React feature to show a fallback (like <h1>Loading...</h1>) while waiting for a component to load or render.
+
+   <Suspense fallback={<h1>Loading Movie Info </h1>}> 
+      <MovieVideos id={id}/>
+      </Suspense >
+
+Parallel API Request
+Use Promise.all to run multiple API calls at the same time (fails if any one fails).
+Can also use Suspense if components support it
+
+
+
+Loading UI
+loading.tsx → Page-level loading
+
+Suspense → Component-level loading (like server components)
+
