@@ -1,3 +1,5 @@
+import potato from "../styles/movie-info.module.css";
+
 async function getMovie(id: string) {
     const response = await fetch(`https://nomad-movies.nomadcoders.workers.dev/movies/${id}`);
     return response.json();
@@ -5,6 +7,22 @@ async function getMovie(id: string) {
 
 
 export default async function MovieInfo({id}:{id:string}){
-    const info = await getMovie(id)
-    return <h6>{JSON.stringify(info)}</h6>
-}
+    const movie = await getMovie(id)
+    return (
+      <div className={potato.container}>
+        <img
+          src={movie.poster_path}
+          className={potato.poster}
+          alt={movie.title}
+        />
+        <div className={potato.info}>
+          <h1 className={potato.title}>{movie.title}</h1>
+          <h3>⭐️ {movie.vote_average.toFixed(1)}</h3>
+          <p>{movie.overview}</p>
+          <a href={movie.homepage} target={"_blank"}>
+            Homepage &rarr;
+          </a>
+        </div>
+      </div>
+    );
+  }
