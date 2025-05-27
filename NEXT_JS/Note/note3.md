@@ -54,3 +54,8 @@ loading.tsx → Page-level loading
 
 Suspense → Component-level loading (like server components)
 
+
+Error Handling
+You need error.tsx
+Error page shows but the application still works.
+
