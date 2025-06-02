@@ -6,4 +6,4 @@ How to start project :
 Next js app creator 
 
 
-[2]
+[2]Tailwind CSS IntelliSense VS extension.
